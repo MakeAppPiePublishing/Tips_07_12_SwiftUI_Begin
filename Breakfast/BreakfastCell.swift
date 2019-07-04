@@ -18,7 +18,7 @@ struct BreakfastCell : View {
     var breakfast:Breakfast
     var index:Int
     //Some computed values to speed up coding below
-    var fsImage:String{
+    var sfSymbolName:String{
         return "\(index).square"
     }
     var formattedPrice:String{
